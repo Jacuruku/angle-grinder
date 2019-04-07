@@ -22,7 +22,7 @@ jobs:
           name: Check formatting
           command: |
             rustfmt --version
-            cargo fmt -- --write-mode=diff
+            cargo fmt --all -- --check
       - run:
           name: Stable Build
           command: |
