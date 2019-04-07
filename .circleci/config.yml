@@ -31,7 +31,7 @@ jobs:
             cargo build
       - run:
           name: Test
-          command: rustup run stable cargo test
+          command: cargo test
       #- run:
       #    name: Upload Coverage
       #    command: ./scripts/codecov.sh
